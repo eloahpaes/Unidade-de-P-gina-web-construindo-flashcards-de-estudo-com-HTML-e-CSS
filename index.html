@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcards de Estudo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Flashcards de Estudo</h1>
+        <p>Clique em um cartão para ver a resposta</p>
+    </header>
+
+    <main>
+        <!-- Formulário para criar novos flashcards -->
+        <section class="form-container">
+            <h2>Adicionar Novo Cartão</h2>
+            <form id="flashcard-form">
+                <input type="text" id="pergunta" placeholder="Digite a pergunta..." required>
+                <input type="text" id="resposta" placeholder="Digite a resposta..." required>
+                <button type="submit">Criar Flashcard</button>
+            </form>
+        </section>
+
+        <!-- Área onde os flashcards aparecerão -->
+        <section id="cards-container" class="cards-grid"></section>
+    </main>
+
+    <footer>
+        <p>Projeto desenvolvido para estudos de HTML, CSS e JavaScript</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
